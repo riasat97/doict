@@ -1,0 +1,6 @@
+1.create database called srdl and set collation to utf8_unicode_ci
+credential ("localhost","root","","srdl");
+
+2.import srdl_sql.sql
+
+3.run http://localhost/workstation/index.php

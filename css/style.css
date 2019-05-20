@@ -1,0 +1,470 @@
+
+body {
+	background: #fff;
+    font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+    background: url(../img/bg_main.gif) repeat-y scroll center top rgba(0, 0, 0, 0);
+    background-attachment: fixed;
+}
+
+
+.container {
+	width: 960px;
+}
+
+.top-bar {
+	background-color: #683091;
+    box-shadow: 0 1px 5px #999999;
+    border-bottom: 4px solid #8bc643;
+    color: #fff;
+}
+
+.top-bar-text {
+	vertical-align: middle;
+    margin: 0px;
+    padding: 8px 0px;
+}
+
+.top-bar-text a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.top-bar-text a:hover {
+	text-decoration: none;
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+.padding-right-0 {
+	padding-right: 0px;
+}
+
+
+
+
+
+/************ Banner Slider ************/
+.container.banner-slider {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#slides {
+  display: none;
+}
+
+.slidesjs-pagination .active {
+  color:red;
+}
+
+@media (max-width: 767px) {
+  /*body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }*/
+  .container {
+    width: auto;
+  }
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+  .container {
+    width: auto;
+  }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 724px;
+  }
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+
+.slidesjs-container, .slidesjs-control {
+	width: 960px !important;
+}
+
+
+
+
+/************ Navigation Bar ************/
+.container.navigation .navbar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container.navigation ul.navbar-nav {
+    margin: 0px !important;
+}
+
+.tutorial {
+    /*width: 80%;*/
+    /*margin: 5% auto 0 auto;*/
+    /*box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);*/
+    background-color: #f9f9f9;
+    /*max-width: 800px;*/
+}
+
+.tutorial ul {
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+.tutorial .slider {
+    width: 100%;
+    height: 300px;
+    background-color: #F03861;
+}
+
+.tutorial .information {
+    width: 100%;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.tutorial .information h1 {
+    color: #333;
+    font-size: 1.5rem;
+    padding: 0px 10px;
+    border-left: 3px solid #F03861;
+}
+
+.tutorial .information h3 {
+    color: #e0e0e0;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0px 10px;
+    border-left: 3px solid #F03861;
+}
+
+.tutorial .information p {
+    padding: 10px 0px;
+}
+
+.nav-link {
+    padding: .5rem 1rem !important;
+}
+
+.tutorial ul {
+    font-size: 0;
+    list-style-type: none;
+}
+
+.tutorial ul li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    display: inline-block;
+    padding: 5px 15px !important;
+    position: relative;
+
+    border-right: 1px dotted #ccc;
+}
+
+.navbar-collapse {
+     padding-right: 0px;
+     padding-left: 0px;
+}
+
+.tutorial ul li:first-child {
+    border-left: 1px dotted #ccc;
+}
+
+.tutorial ul li ul {
+    display: none;
+}
+
+.tutorial ul li:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+.tutorial ul li:hover ul {
+    display: block;
+    margin-top: 15px;
+    width: 200px;
+    left: 0;
+    position: absolute;
+}
+
+.tutorial ul li:hover ul li {
+    display: block;
+    background-color: #e7e7e7;
+}
+
+.tutorial ul li:hover ul li span {
+    float: right;
+    color: #f9f9f9;
+    background-color: #F03861;
+    padding: 2px 5px;
+    text-align: center;
+    font-size: .8rem;
+    border-radius: 3px;
+}
+
+.tutorial ul li:hover ul li:hover {
+    background-color: #e0e0e0;
+}
+
+.tutorial ul li:hover ul li:hover span {
+    background-color: #ee204e;
+}
+
+
+
+/*************** Right Side Contents ***************/
+.side-container {
+	margin-top: 30px;
+}
+
+.sidebar-block p.block-heading {
+	background: #609513;
+	color: #fff;
+	padding: 5px;
+}
+
+.sidebar-block img {
+	display: block;
+	margin: auto;
+	width: 100px;
+}
+
+.sidebar-block p.description {
+    text-align: justify;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+
+
+/*************** Main Search Menu ***************/
+.wrap--outer {
+	/*width: 58rem;*/
+	margin: 0 auto;
+}
+
+.project-heading {
+	background: rgb(238, 238, 238);
+    margin: 0px;
+    padding: 5px 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-image: none;
+    color: rgb(68, 68, 68);
+    line-height: 21px;
+    font-family: kalpurushregular;
+    font-size: 14px;
+    vertical-align: baseline;
+    font-stretch: inherit;
+}
+
+.project-heading span {
+	color: rgb(128, 0, 0);
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.main-heading {
+	margin-top: 20px;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.wrap--inner {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: space-between;
+}
+.wrap {
+	width: 13.5rem;
+}
+.wrap select {
+	width: 100%;
+	padding: 5px 6px;
+	border: 1px solid #cfcfcf;
+}
+
+.submit-button-block {
+	margin-top: 15px;
+}
+
+.submit-button-block button {
+	/*background: #609513;*/
+	/*border-color: #609513;*/
+	padding: 5px 20px;
+    /*color: #fff;*/
+    display: block;
+    margin: auto;
+}
+
+.submit-button-block button:hover {
+    cursor: pointer;
+}
+
+
+
+/*************** Footer Section ***************/
+.footer-artwork {
+    background: url(../img/footer_top_bg.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 84px;
+    margin: 0 auto;
+    /*width: 1020px;*/
+    clear: both;
+}
+
+
+
+/**************** Data Table *******************/
+button.dt-button, div.dt-button, a.dt-button {
+    padding: 1px 6px;
+    font-weight: normal;
+}
+
+table#example {
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+
+.result-table label {
+    font-weight: normal;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 5px 5px;
+    border-bottom: 1px solid #111;
+}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc {
+    background-image: none;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 5px 10px;
+}
+
+
+
+
+/*************** Responsiveness ***************/
+@media (max-width: 768px) {
+  	.wrap {
+	  	width: 60%;
+	    display: block;
+	    margin: auto;
+	    margin-bottom: 20px;
+  	}
+
+  	.wrap select option {
+  		font-size: 16px;
+  		padding-top: 3px;
+  		padding-bottom: 3px;
+  	}
+
+  	.submit-button-block {
+  		width: 75%;
+	    display: block;
+	    margin: auto;
+	    margin-bottom: 30px;
+  	}
+
+  	.wrap--outer h5 {
+  		width: 75%;
+	    display: block;
+	    margin: auto;
+	    margin-bottom: 15px;
+  	}
+
+  	.slidesjs-container, .slidesjs-control {
+  		width: auto !important;
+  	}
+
+  	.tutorial ul li {
+  		font-size: 15px;
+  	}
+
+    .main-heading {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .wrap--inner .wrap select {
+        height: 270px;
+    }
+
+    .wrap--inner .wrap:first-child select {
+        height: 230px;
+    }
+
+    .tutorial ul li {
+        font-size: 16px;
+        padding: 9px 15px;
+        border-right: 1px dotted #ccc;
+    }
+
+    .tutorial ul li:first-child {
+        border-left: none;
+    }
+
+    .tutorial ul li:last-child {
+        border-right: none;
+    }
+
+    .side-container .padding-right-0 {
+        padding-right: 15px;
+    }
+
+    .sidebar-block p.description, .sidebar-block p>a {
+        font-size: 15px;
+    }
+
+    .side-container {
+        margin-top: 0px;
+    }
+
+    .container.navigation {
+        z-index: 999;
+    }
+
+    .project-heading {
+        margin: 15px;
+        font-size: 15px;
+    }
+
+    .container.navigation .navbar .navbar-toggler {
+        margin: 10px 15px 10px 15px;
+        padding: 4px 10px;
+    }
+
+    /*.wrap:nth-child(1) {*/
+        /*width: 90%;*/
+    /*}*/
+
+    /*.wrap:nth-child(2) {*/
+        /*width: 40%;*/
+    /*}*/
+
+    /*.wrap:nth-child(3) {*/
+        /*width: 40%;*/
+    /*}*/
+}
