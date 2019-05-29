@@ -24,9 +24,9 @@ $sql = "SELECT `id`,
 `sub_batch`,
 `name` ,
 `institution` ,
-`mobile`,
+`b_mobile`,
 `district`,
-`division`  FROM `trainees` ";
+`division`  FROM `doict` ";
 $sqlTot .= $sql;
 $sqlRec .= $sql;
 $sqlRec .=  " ORDER BY id";
